@@ -35,10 +35,7 @@ ActiveRecord::Schema[7.1].define(version: 2024_02_06_043146) do
   end
 
   create_table "studios", force: :cascade do |t|
-    t.string "title"
-    t.string "year_released"
-    t.string "rated"
-    t.string "studio_id"
+    t.string "name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
